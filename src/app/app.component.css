@@ -1,0 +1,21 @@
+.top-div{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: row;
+}
+.showDiv {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    cursor: pointer;
+}
